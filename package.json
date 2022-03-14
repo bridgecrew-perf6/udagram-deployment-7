@@ -1,23 +1,5 @@
+
 {
-  "name": "udagram",
-  "version": "1.0.0",
-  "description": "### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**",
-  "scripts": {
-    "frontend:install": "cd udagram-frontend && npm install",
-    "backend:install": "cd udagram-api && npm install",
-    "frontend:build": "cd udagram-frontend && npm run build",
-    "backend:build": "cd udagram-api && npm run build",
-    "frontend:deploy": "cd udagram-frontend && npm run deploy",
-    "backend:deploy": "cd udagram-api && npm run deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mahmoud-sharshar/udagram-deployment.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mahmoud-sharshar/udagram-deployment/issues"
-  },
-  "homepage": "https://github.com/mahmoud-sharshar/udagram-deployment#readme"
+    "scripts": {},
+    "devDependencies": {}
 }
