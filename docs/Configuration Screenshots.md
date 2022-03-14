@@ -26,6 +26,9 @@
 
 ![Pipeline Schema](./images/pipeline.png)
 
+#### Env variables 
+![Pipeline env variables](./images/pipeline_env.png)
+
 ### Architecture
 
 ![Architecture](./images/architecture.png)
