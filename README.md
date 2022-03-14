@@ -2,6 +2,20 @@
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
+## Documentions
+
+Project docs can be found in docs folder which contains the following:
+
+- App Dependencies.
+- Configuration Screenshots.
+- Infrastructure Overview.
+- Pipeline Process Overview.
+
+## Live Demo
+
+- The Frontend App is available at http://udagram-frontend-nd.s3-website-us-east-1.amazonaws.com/
+- The bacend API is available at http://udagramndapi-env.eba-yarzpzjv.us-east-1.elasticbeanstalk.com/
+
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
@@ -61,6 +75,5 @@ The e2e tests are using Protractor and Jasmine.
 - [Express](https://expressjs.com/) - Javascript API Framework
 
 ## License
-
 
 [License](LICENSE.txt)
