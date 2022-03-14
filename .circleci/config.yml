@@ -6,10 +6,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: "cimg/base:stable"
-    filters:
-      branches:
-        only: main    
+      - image: "cimg/base:stable"   
     steps:
       - node/install
       - checkout
@@ -39,3 +36,11 @@ jobs:
           name: Deploy backend
           command: |
             npm run backend:deploy
+
+workflows:
+  udagram-build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: main
